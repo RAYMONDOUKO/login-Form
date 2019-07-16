@@ -34,7 +34,7 @@
 			$_SESSION['SESS_FIRST_NAME'] = $member['username'];
 			session_write_close();
 
-			header("location: admin/dashboard.php");
+			header("location: index.php");
 			exit();
 		}else {
 			//Login failed
